@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: smart
+  # DataSource Configuration
+  datasource:
+    url: jdbc:postgresql://127.0.0.1:5432/smart
+    username: test
+    password: 1234
+
+# MyBatis Configuration
+mybatis:
+  mapper-locations: classpath:mybatis/mappers/*.xml
+  config-location: classpath:mybatis/config.xml
